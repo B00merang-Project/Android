@@ -1,4 +1,4 @@
-#Android theme for Linux
+# Android Nougat theme for Linux
 
 ![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2016-12-21-10-55-36_orig.png)
 
