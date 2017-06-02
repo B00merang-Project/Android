@@ -1,14 +1,14 @@
-/* B00merang Android theme */
+/* B00merang Android Theme */
 
 /* default color scheme */
-@define-color bg_color #f1f1f1;
-@define-color fg_color #000;
-@define-color base_color #ffffff;
-@define-color text_color #000;
+@define-color bg_color #2a3b41;
+@define-color fg_color #fff;
+@define-color base_color shade(@bg_color, 0.8);
+@define-color text_color #fff;
 @define-color selected_bg_color #009385;
 @define-color selected_fg_color #fff;
-@define-color tooltip_bg_color #ffffff;
-@define-color tooltip_fg_color #000;
+@define-color tooltip_bg_color #2a3b41;
+@define-color tooltip_fg_color #fff;
 @define-color progressbar_color #06B025;
 
 /* dark color scheme */
