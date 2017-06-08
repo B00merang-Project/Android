@@ -1,6 +1,6 @@
 # Android Nougat theme for Linux
 
-![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2016-12-21-10-55-36_orig.png)
+![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-12-15-38-58_1_orig.png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
@@ -10,7 +10,6 @@
 
 **Features**
 - Flat & elegant colors 
-- Specially crafted Cinnamon theme 
 - Clean and modern look
 - Compatibility with GTK 3.20 +
 - Material design effetcs! (thanks to Flat-Plat theme)
