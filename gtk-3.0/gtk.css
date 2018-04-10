@@ -5,15 +5,15 @@
 @define-color fg_color #000;
 @define-color base_color #ffffff;
 @define-color text_color #000;
-@define-color selected_bg_color #009385;
+@define-color selected_bg_color #2196f3;
 @define-color selected_fg_color #fff;
 @define-color tooltip_bg_color #ffffff;
 @define-color tooltip_fg_color #000;
 @define-color progressbar_color #06B025;
 
 /* dark color scheme */
-@define-color dark_bg_color #2a3b41;
-@define-color dark_fg_color #fff;
+@define-color dark_bg_color #f1f1f1;
+@define-color dark_fg_color #000;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
