@@ -2520,7 +2520,7 @@ headerbar entry selection:focus {
 headerbar switch {
     border-color: @titlebar_bg_color;
     box-shadow: inset 0 0 0 3px @titlebar_bg_color;
-    margin: 8px;
+    margin: 3px;
 }
 
 button.titlebutton {
