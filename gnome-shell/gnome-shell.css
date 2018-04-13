@@ -23,9 +23,8 @@
 
 /* GLOBALS */
 stage {
-  font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
+  font-family: Source Sans Pro, Cantarell, Sans-Serif;
   font-size: 10.5pt;
-  font-weight: 400;
   color: rgba(0, 0, 0, 0.8); }
 
 /* WIDGETS */
@@ -36,7 +35,7 @@ stage {
   border-width: 0;
   border-radius: 2px;
   font-size: 10.5pt;
-  font-weight: 500;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.6);
   background-color: transparent;
   border-color: transparent;
@@ -76,7 +75,7 @@ stage {
   border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
   border-right-width: 0;
   font-size: 10.5pt;
-  font-weight: 500;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.6);
   background-color: transparent;
   border-color: transparent;
@@ -128,7 +127,7 @@ StEntry {
   selection-background-color: #42A5F5;
   selected-color: #FFFFFF;
   font-size: 12pt;
-  font-weight: 400;
+  font-weight: normal;
   background-color: rgba(250, 250, 250, 0.01);
   border-color: transparent;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.24); }
@@ -246,7 +245,7 @@ StScrollBar {
 /* Modal Dialogs */
 .headline {
   font-size: 15pt;
-  font-weight: 500; }
+  font-weight: normal; }
 
 .lightbox {
   background-color: black; }
@@ -280,7 +279,7 @@ StScrollBar {
 .mount-question-dialog-subject,
 .end-session-dialog-subject {
   font-size: 15pt;
-  font-weight: 500; }
+  font-weight: normal; }
 
 /* End Session Dialog */
 .end-session-dialog {
@@ -418,7 +417,7 @@ StScrollBar {
 
 .prompt-dialog-headline {
   font-size: 15pt;
-  font-weight: 500;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.8); }
 
 .prompt-dialog-description:rtl {
@@ -633,7 +632,7 @@ StScrollBar {
   min-height: 64px; }
   .osd-window .osd-monitor-label {
     font-size: 45px;
-    font-weight: 400; }
+    font-weight: normal; }
   .osd-window .level {
     height: 0.6em;
     border-radius: 4px;
@@ -683,7 +682,7 @@ StScrollBar {
 
 .input-source-switcher-symbol {
   font-size: 45px;
-  font-weight: 400;
+  font-weight: normal;
   width: 96px;
   height: 96px; }
 
@@ -741,9 +740,10 @@ StScrollBar {
 
 /* TOP BAR */
 #panel {
-  background-color: #000;
-  font-weight: bold;
+  background-color: transparent;
   height: 32px; }
+  #panel.solid {
+    background-color: #000; }
   #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
     background-color: transparent; }
   #panel #panelLeft, #panel #panelCenter {
@@ -762,8 +762,8 @@ StScrollBar {
   #panel .panel-button {
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
     transition-duration: 0.2s; }
     #panel .panel-button .app-menu-icon {
       -st-icon-style: symbolic;
@@ -841,7 +841,7 @@ StScrollBar {
 
 .datemenu-today-button .date-label {
   font-size: 18pt;
-  font-weight: 400; }
+  font-weight: normal; }
 
 .world-clocks-header,
 .message-list-section-title {
@@ -886,7 +886,7 @@ StScrollBar {
 
 .calendar-day-base {
   font-size: 9pt;
-  font-weight: 400;
+  font-weight: normal;
   text-align: center;
   width: 32px;
   height: 32px;
@@ -908,7 +908,7 @@ StScrollBar {
     background-color: transparent;
     color: rgba(0, 0, 0, 0.48);
     font-size: 9pt;
-    font-weight: 400;
+    font-weight: normal;
     font-weight: bold;
     text-align: center; }
 
@@ -1168,7 +1168,7 @@ StScrollBar {
 
 .nm-dialog-header {
   font-size: 15pt;
-  font-weight: 500; }
+  font-weight: normal; }
 
 .nm-dialog-item {
   font-size: 1em;
@@ -1282,7 +1282,7 @@ StScrollBar {
 
 .list-search-result-title {
   font-size: 18pt;
-  font-weight: 400;
+  font-weight: normal;
   color: #FFFFFF; }
 
 .list-search-result-description {
@@ -1495,7 +1495,7 @@ StScrollBar {
 
 .search-statustext, .no-frequent-applications-label {
   font-size: 45px;
-  font-weight: 400;
+  font-weight: normal;
   color: rgba(255, 255, 255, 0.6); }
 
 /* NOTIFICATIONS & MESSAGE TRAY */
@@ -1533,7 +1533,7 @@ StScrollBar {
     padding: 0 16px;
     background-color: transparent;
     color: rgba(0, 0, 0, 0.6);
-    font-weight: 500; }
+    font-weight: normal; }
     .notification-banner .notification-button:first-child {
       border-radius: 0 0 0 2px; }
     .notification-banner .notification-button:last-child {
@@ -1589,7 +1589,7 @@ StScrollBar {
 .chat-meta-message {
   padding-left: 4px;
   font-size: 9pt;
-  font-weight: 400;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.48); }
   .chat-meta-message:rtl {
     padding-left: 0;
@@ -1692,7 +1692,7 @@ StScrollBar {
   min-height: 72px;
   min-width: 72px;
   font-size: 2em;
-  font-weight: 500;
+  font-weight: normal;
   border-radius: 2px;
   border: none;
   color: inherit;
@@ -1956,7 +1956,7 @@ StScrollBar {
 .user-widget-label {
   color: #FFFFFF;
   font-size: 15pt;
-  font-weight: 500;
+  font-weight: normal;
   text-align: left;
   padding-left: 15px; }
 
@@ -2010,7 +2010,7 @@ StScrollBar {
 
 .screen-shield-clock-date {
   font-size: 45px;
-  font-weight: 400; }
+  font-weight: normal; }
 
 .screen-shield-notifications-container {
   spacing: 6px;
@@ -2114,7 +2114,7 @@ StScrollBar {
   border: none;
   border-radius: 2px;
   font-size: 10.5pt;
-  font-weight: 500;
+  font-weight: normal;
   color: rgba(0, 0, 0, 0.6);
   background-color: transparent;
   border-color: transparent;
@@ -2164,7 +2164,7 @@ StScrollBar {
 
 .lg-extension-name {
   font-size: 18pt;
-  font-weight: 400; }
+  font-weight: normal; }
 
 .lg-extension-meta {
   spacing: 6px; }
