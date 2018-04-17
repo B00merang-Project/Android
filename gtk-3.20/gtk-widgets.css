@@ -685,6 +685,10 @@ statusbar frame > border {
     border: none;
 }
 
+.frame {
+	background: none;
+}
+
 /*******************
  * scrolled window *
  *******************/
@@ -2209,6 +2213,7 @@ switch {
     outline-offset: -4px;
     border: none;
     border-radius: 16px;
+    margin: 6px;
     background-color:  mix(@theme_bg_color, @theme_fg_color, 0.3);
 }
 
@@ -2516,12 +2521,6 @@ headerbar entry {
 headerbar entry:active,
 headerbar entry selection:focus {
     border-color: shade(@theme_bg_color, 0.8);
-}
-
-headerbar switch {
-    border-color: @titlebar_bg_color;
-    box-shadow: inset 0 0 0 3px @titlebar_bg_color;
-    margin: 3px;
 }
 
 button.titlebutton {
@@ -3254,13 +3253,27 @@ headerbar .linked button:disabled:only-child {
  * tooltip *
  ***********/
 tooltip {
-    border-width: 1px;
-    border-style: solid;
-    border-color: shade(@theme_tooltip_bg_color, 0.8);
-    border-radius: 0px;
-    background-color: @theme_tooltip_bg_color;
-    background-image: none;
-    color: @theme_tooltip_fg_color;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+tooltip.background {
+    border: 1px solid shade(@tooltip_bg_color, 0.8);
+    background-color: @tooltip_bg_color;
+    background-clip: padding-box;
+}
+
+tooltip.background label {
+    padding: 1px;
+}
+
+tooltip decoration {
+    background-color: transparent;
+}
+
+tooltip * {
+    background-color: transparent;
+    color: @tooltip_fg_color;
 }
 
 /************
@@ -3905,6 +3918,7 @@ decoration:backdrop {
 tooltip.csd decoration {
     border-radius: 0;
     box-shadow: none;
+    background-color: @tooltip_bg_color;
 }
 
 messagedialog.csd decoration {
@@ -4028,7 +4042,6 @@ undershoot.right {
     background-position: right center;
 }
 
-
 .overlay-bar {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 4px;
@@ -4036,6 +4049,6 @@ undershoot.right {
     margin: 3px;
 }
 
-  .overlay-bar label {
+.overlay-bar label {
     color: @tooltip_fg_color;
 }
