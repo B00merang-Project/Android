@@ -1,6 +1,6 @@
-# Android Theme for Linux
+# Android Oreo Theme for Linux
 
-![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-12-15-38-58_1_orig.png)
+![android-oreo](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-from-2018-04-13-13-38-27_1_orig.png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
