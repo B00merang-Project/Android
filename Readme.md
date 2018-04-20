@@ -1,6 +1,6 @@
-# Android Theme for Linux
+# Android Nougat Theme for Linux
 
-![android-theme](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-12-15-38-58_1_orig.png)
+![android-nougat](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/android-nougat_1_orig.png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
