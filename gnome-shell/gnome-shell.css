@@ -1201,6 +1201,7 @@ StScrollBar {
 /* OVERVIEW */
 #overview {
   background-color: rgba(255,255,255,0.1);
+  box-shadow: none;
   spacing: 24px; }
 
 .overview-controls {
@@ -1222,14 +1223,14 @@ StScrollBar {
 
 .window-caption {
   spacing: 25px;
-  color: #FFFFFF;
-  background-color: transparent;
+  color: #000000;
+  background-color: #F1F1F1;
   border-radius: 2px;
   padding: 4px 8px;
   -shell-caption-spacing: 12px; }
   .window-caption:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: #FFFFFF; }
+    background-color: #FFFFFF;
+    color: #000000; }
 
 .search-entry {
   width: 304px;
