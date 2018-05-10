@@ -719,7 +719,7 @@ infobar {
     border-style: solid;
     border-color: shade(@info_bg_color, 0.8);
     background-color: @info_bg_color;
-    background-image: none;
+    background-image: image(@info_bg_color);
     color: @info_fg_color;
 }
 
@@ -770,7 +770,7 @@ infobar {
     border-style: solid;
     border-color: shade(@warning_bg_color, 0.8);
     background-color: @warning_bg_color;
-    background-image: none;
+    background-image: image(@warning_bg_color);
     color: @warning_fg_color;
 }
 
@@ -821,7 +821,7 @@ infobar {
     border-style: solid;
     border-color: shade(@question_bg_color, 0.8);
     background-color: @question_bg_color;
-    background-image: none;
+    background-image: image(@question_bg_color);
     color: @question_fg_color;
 }
 
@@ -872,7 +872,7 @@ infobar {
     border-style: solid;
     border-color: shade(@error_bg_color, 0.8);
     background-color: @error_bg_color;
-    background-image: none;
+    background-image: image(@error_bg_color);
     color: @error_fg_color;
 }
 
