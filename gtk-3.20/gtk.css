@@ -13,7 +13,7 @@
 @define-color tooltip_fg_color #000;
 
 /* dark color scheme */
-@define-color dark_bg_color #f1f1f1;
+@define-color dark_bg_color #f6f6f5;
 @define-color dark_fg_color #000;
 
 /* colormap actually used by the theme, to be overridden in other css files */
