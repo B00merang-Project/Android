@@ -495,7 +495,7 @@ combobox entry {
     border-bottom-right-radius: 0;
 }
 
-combobox button {
+combobox button:not(:only-child) {
     border-bottom-left-radius: 0;
     border-style: inset;
     border-top-left-radius: 0;
