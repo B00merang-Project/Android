@@ -200,8 +200,8 @@ button {
   border: none;
   border-radius: 3px;
   color: @theme_selected_bg_color;
-  border-color: @theme_bg_color;
-  background-color: @theme_bg_color;
+  border-color: transparent;
+  background-color: transparent;
   outline-style: solid;
   outline-width: 2px;
   outline-offset: 0;
@@ -225,14 +225,14 @@ button {
       color: @theme_unfocused_disabled_fg_color; }
   button:backdrop {
     color: @theme_unfocused_fg_color;
-    background-color: @theme_unfocused_bg_color; }
+    background-color: transparent; }
 button.flat {
   padding: 4px 8px;
   border: none;
   border-radius: 3px;
   color: @theme_selected_bg_color;
-  border-color: @theme_bg_color;
-  background-color: @theme_bg_color;
+  border-color: transparent;
+  background-color: transparent;
   outline-style: solid;
   outline-width: 2px;
   outline-offset: 0;
@@ -256,7 +256,7 @@ button.flat {
       color: @theme_unfocused_disabled_fg_color; }
   button.flat:backdrop {
     color: @theme_unfocused_fg_color;
-    background-color: @theme_unfocused_bg_color; }
+    background-color: transparent; }
 
 checkbutton.text-button, radiobutton.text-button {
   padding: 4px;
@@ -385,8 +385,8 @@ entry {
   entry:active, entry:focus {
     border-color: @theme_selected_bg_color; }
   entry:selected, entry:selected:focus, entry selection, entry selection:focus {
-    color: @theme_selected_fg_color;
-    background-color: @theme_selected_bg_color; }
+    color: @theme_selected_text_color;
+    background-color: @theme_selected_base_color; }
   entry:disabled {
     color: @theme_disabled_text_color;
     border-color: @theme_disabled_bg_color; }
@@ -1473,8 +1473,8 @@ textview {
   color: @theme_text_color;
   background-color: @theme_base_color; }
   textview text:selected, textview text selection, textview text:selected:focus, textview text selection:focus {
-    color: @theme_selected_fg_color;
-    background-color: @theme_selected_bg_color; }
+    color: @theme_selected_text_color;
+    background-color: @theme_selected_base_color; }
 
 colorswatch.top {
   border-top-left-radius: 2.5px;
@@ -1583,8 +1583,8 @@ headerbar, headerbar:not(.titlebar) {
     border: none;
     border-radius: 3px;
     color: @headerbar_fg_color;
-    border-color: @headerbar_bg_color;
-    background-color: @headerbar_bg_color;
+    border-color: transparent;
+    background-color: transparent;
     outline-style: solid;
     outline-width: 2px;
     outline-offset: 0;
@@ -1608,7 +1608,7 @@ headerbar, headerbar:not(.titlebar) {
         color: @theme_unfocused_disabled_fg_color; }
     headerbar button:backdrop, headerbar:not(.titlebar) button:backdrop {
       color: @theme_unfocused_fg_color;
-      background-color: @theme_unfocused_bg_color; }
+      background-color: transparent; }
   headerbar entry, headerbar:not(.titlebar) entry {
     padding: 4px 8px; }
 
@@ -1628,8 +1628,8 @@ toolbar {
     border: none;
     border-radius: 3px;
     color: @theme_selected_bg_color;
-    border-color: @theme_bg_color;
-    background-color: @theme_bg_color;
+    border-color: @toolbar_bg_color;
+    background-color: @toolbar_bg_color;
     outline-style: solid;
     outline-width: 2px;
     outline-offset: 0;
@@ -1653,7 +1653,7 @@ toolbar {
         color: @theme_unfocused_disabled_fg_color; }
     toolbar button.flat:backdrop {
       color: @theme_unfocused_fg_color;
-      background-color: @theme_unfocused_bg_color; }
+      background-color: @toolbar_bg_color; }
   toolbar menubar {
     -GtkToolbar-button-relief: normal; }
 
@@ -1699,7 +1699,7 @@ toolbar {
         color: @theme_unfocused_disabled_fg_color; }
     .primary-toolbar button:backdrop, .primary-toolbar .raised button:backdrop {
       color: @theme_unfocused_fg_color;
-      background-color: @theme_unfocused_bg_color; }
+      background-color: @toolbar_bg_color; }
 
 .inline-toolbar toolbar {
   -GtkToolbar-button-relief: normal;
@@ -1742,7 +1742,7 @@ toolbar {
         color: @theme_unfocused_disabled_fg_color; }
     .inline-toolbar toolbar button:backdrop {
       color: @theme_unfocused_fg_color;
-      background-color: @theme_unfocused_bg_color; }
+      background-color: @toolbar_bg_color; }
 
 stackswitcher button.text-button {
   min-width: 80px; }
@@ -2333,7 +2333,7 @@ panel-toplevel.background na-tray-applet {
         color: @theme_unfocused_disabled_fg_color; }
     #XfceNotifyWindow.osd button:backdrop {
       color: @theme_unfocused_fg_color;
-      background-color: @theme_unfocused_bg_color; }
+      background-color: @theme_bg_color; }
 
 .nemo-window .nemo-window-pane widget.entry {
   border: 1px solid;
