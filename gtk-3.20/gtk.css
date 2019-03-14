@@ -1,13 +1,13 @@
 /* Normal colors */
 @import url("gtk-widgets.css");
-@define-color bg_color #ffffff;
+@define-color bg_color #e8e7e8;
 @define-color fg_color #000000;
 @define-color base_color #FFFFFF;
 @define-color text_color #000000;
-@define-color selected_bg_color #1d72e9;
+@define-color selected_bg_color #29dfb2;
 @define-color selected_fg_color #FFFFFF;
-@define-color selected_base_color #ade1f6;
-@define-color selected_text_color #000000;
+@define-color selected_base_color #29dfb2;
+@define-color selected_text_color #ffffff;
 @define-color disabled_bg_color mix(@fg_color, @bg_color, 0.95);
 @define-color disabled_fg_color mix(@fg_color, @bg_color, 0.5);
 @define-color disabled_base_color @disabled_bg_color;
@@ -24,7 +24,7 @@
 @define-color unfocused_disabled_base_color @unfocused_disabled_bg_color;
 @define-color unfocused_disabled_text_color @unfocused_disabled_fg_color;
 /* Darker color scheme */
-@define-color dark_bg_color #f6f6f5;
+@define-color dark_bg_color #eae7ee;
 @define-color dark_fg_color #000000;
 /* Theme colors */
 @define-color theme_bg_color @bg_color;
@@ -85,9 +85,9 @@
 @define-color taskbar_bg_color #000000;
 @define-color taskbar_fg_color #ffffff;
 @define-color titlebar_bg_color @dark_bg_color;
-@define-color titlebar_fg_color @selected_bg_color;
+@define-color titlebar_fg_color @dark_fg_color;
 @define-color headerbar_bg_color @dark_bg_color;
-@define-color headerbar_fg_color @selected_bg_color;
+@define-color headerbar_fg_color @dark_fg_color;
 @define-color terminal_bg_color @fg_color;
 @define-color terminal_fg_color @bg_color;
 /* OSD */
