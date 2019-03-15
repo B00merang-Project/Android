@@ -1,6 +1,8 @@
-# Android Oreo Theme for Linux
+# Android Theme for Linux
 
-![android-oreo](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-from-2018-04-13-13-38-27_1_orig.png)
+GTK theme based on the latest available Android version released by Google
+
+![android-9](https://github.com/B00merang-Project/gallery/raw/master/Android%209%20Pie%20(4).png)
 
 **Maintainer:** [Elbullazul](https://github.com/elbullazul)
 
@@ -10,12 +12,15 @@
 
 **More info :** http://b00merang.weebly.com/android.html
 
-**Features**
-- Flat & elegant colors 
-- Clean and modern look
-- Compatibility with GTK 3.20 +
-- Material design effetcs! (thanks to Flat-Plat theme)
+### Manual installation
 
-***
+Extract the zip file to the themes directory i.e. `/home/USERNAME/.themes`
 
-> **Installation instructions** : http://b00merang.weebly.com/easy-installation-guide.html
+### Requirements
+
+- GTK+ 3.20 or above
+- Murrine and Pixmap theme engines
+
+### Contribute
+
+Contact us @ http://b00merang.weebly.com/contact.html
