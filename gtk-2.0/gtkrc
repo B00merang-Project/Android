@@ -241,7 +241,7 @@ style "button" = "wider"
 {
 	bg[NORMAL]        = @base_color
 	bg[PRELIGHT]      = @base_color
-	#bg[ACTIVE]        = shade (0.85, @bg_color)
+	bg[ACTIVE]        = @selected_bg_color
 	#bg[SELECTED]      = shade (0.5, @selected_bg_color)
 	#bg[INSENSITIVE]   = shade (0.95, @bg_color)
 
@@ -254,7 +254,7 @@ style "button" = "wider"
 		border_shades       = { 1.0, 1.0 }
 		shadow_shades       = {1.0,1.0}
 		reliefstyle         = 0
-		roundness	        = 0
+		roundness	        = 2
 	}
 }
 
