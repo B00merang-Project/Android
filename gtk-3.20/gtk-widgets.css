@@ -855,11 +855,6 @@ notebook {
       color: @theme_selected_bg_color; }
     notebook tab:backdrop {
       background-color: transparent; }
-    notebook tab button:focus, notebook tab button:backdrop, notebook tab button:hover:focus, notebook tab button:hover:backdrop, notebook tab button:active:focus, notebook tab button:active:backdrop, notebook tab button:checked:focus, notebook tab button:checked:backdrop, notebook tab button:disabled:focus, notebook tab button:disabled:backdrop, notebook tab:checked button:focus, notebook tab:checked button:backdrop, notebook tab:checked button:hover:focus, notebook tab:checked button:hover:backdrop, notebook tab:checked button:active:focus, notebook tab:checked button:active:backdrop, notebook tab:checked button:checked:focus, notebook tab:checked button:checked:backdrop, notebook tab:checked button:disabled:focus, notebook tab:checked button:disabled:backdrop {
-      color: @theme_fg_color;
-      border-color: transparent;
-      background-color: transparent;
-      box-shadow: none; }
   notebook > header {
     background-color: @theme_base_color; }
     notebook > header:backdrop {
@@ -1612,7 +1607,7 @@ toolbar {
     border: none;
     border-radius: 3px;
     color: @theme_selected_bg_color;
-    border-color: @toolbar_bg_color;
+    border-color: @borders;
     background-color: @toolbar_bg_color;
     outline-style: solid;
     outline-width: 2px;
@@ -1658,7 +1653,7 @@ toolbar {
     border: none;
     border-radius: 3px;
     color: @toolbar_fg_color;
-    border-color: @toolbar_bg_color;
+    border-color: @borders;
     background-color: @toolbar_bg_color;
     outline-style: solid;
     outline-width: 2px;
@@ -1701,7 +1696,7 @@ toolbar {
     border: none;
     border-radius: 3px;
     color: @toolbar_fg_color;
-    border-color: @toolbar_bg_color;
+    border-color: @borders;
     background-color: @toolbar_bg_color;
     outline-style: solid;
     outline-width: 2px;
@@ -2299,7 +2294,7 @@ panel-toplevel.background na-tray-applet {
     border: none;
     border-radius: 3px;
     color: @theme_fg_color;
-    border-color: @theme_bg_color;
+    border-color: @borders;
     background-color: @theme_bg_color;
     outline-style: solid;
     outline-width: 2px;
@@ -2336,8 +2331,10 @@ panel-toplevel.background na-tray-applet {
     color: @theme_selected_fg_color;
     background-color: @theme_selected_bg_color; }
 .nemo-window .sidebar {
-  background-color: @theme_bg_color; }
+  color: @sidebar_fg_color;
+  background-color: @sidebar_bg_color; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar row {
+    color: @sidebar_fg_color;
     background-color: transparent; }
     .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:selected {
       border-color: @theme_selected_bg_color;
