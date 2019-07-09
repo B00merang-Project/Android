@@ -1561,7 +1561,7 @@ headerbar, headerbar:not(.titlebar) {
   border-style: solid;
   border-color: mix(shade(#FFFFFF, 0.2), #000000, 0.5);
   border-bottom-width: 1px;
-  color: #0080DD;
+  color: #FFFFFF;
   background-color: #000000; }
   headerbar:backdrop, headerbar:not(.titlebar):backdrop {
     border-color: shade(#FFFFFF, 0.2);
@@ -2163,13 +2163,13 @@ messagedialog {
     padding: 2px 2px;
     background-color: transparent; }
     .titlebar .titlebutton.close:active, .titlebar .titlebutton.maximize:active, .titlebar .titlebutton.minimize:active, .titlebar .titlebutton:not(separator):active {
-      color: shade(#0080DD, 0.7); }
+      color: shade(#FFFFFF, 0.7); }
   .tiled .titlebar:not(headerbar), .tiled .titlebar:backdrop:not(headerbar), .maximized .titlebar:not(headerbar), .maximized .titlebar:backdrop:not(headerbar) {
     border-radius: 0; }
 
 .titlebar, .titlebar:not(headerbar), headerbar.default-decoration, .csd headerbar.default-decoration, .default-decoration.titlebar:not(headerbar), .csd .default-decoration.titlebar:not(headerbar) {
   min-height: 30px;
-  color: #0080DD;
+  color: #FFFFFF;
   background-color: #000000; }
   .titlebar:backdrop, .titlebar:not(headerbar):backdrop, headerbar.default-decoration:backdrop, .csd headerbar.default-decoration:backdrop, .default-decoration.titlebar:not(headerbar):backdrop, .csd .default-decoration.titlebar:not(headerbar):backdrop {
     background-color: #000000;
@@ -2405,11 +2405,11 @@ UnityDecoration {
     border-radius: 0px 0px 0 0;
     padding: 1px 8px 0 8px;
     background-color: #000000;
-    color: mix(#0080DD, #000000, 0.1);
+    color: mix(#FFFFFF, #000000, 0.1);
     text-shadow: none; }
     UnityDecoration .top:backdrop {
       background-color: #000000;
-      color: mix(#0080DD, #000000, 0.4); }
+      color: mix(#FFFFFF, #000000, 0.4); }
   UnityDecoration .left, UnityDecoration .right, UnityDecoration.bottom {
     background-color: #000000; }
     UnityDecoration .left:backdrop, UnityDecoration .right:backdrop, UnityDecoration.bottom:backdrop {
