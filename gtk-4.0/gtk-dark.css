@@ -430,22 +430,35 @@ button {
       background-color: transparent; }
 
 button.destructive-action {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #d63333;
+  padding: 4px 8px;
+  border: none;
   border-radius: 3px;
-  color: #fae6e6;
-  background-color: #CC0000; }
-  button.destructive-action:hover {
-    border-color: #db4d4d;
-    background-color: #d63333; }
-  button.destructive-action:active {
-    border-color: #db4d4d;
-    background-color: #d11a1a; }
+  color: #CC0000;
+  border-color: transparent;
+  background-color: transparent;
+  outline-style: solid;
+  outline-width: 2px;
+  outline-offset: 0; }
+  button.destructive-action:active, button.destructive-action:checked {
+    outline-color: #36abff;
+    color: #FFFFFF;
+    background-color: #0080DD; }
+    button.destructive-action:active:disabled, button.destructive-action:checked:disabled {
+      color: #cccccc;
+      background-color: #045d9f; }
+      button.destructive-action:active:disabled:backdrop, button.destructive-action:checked:disabled:backdrop {
+        color: #b3b3b3;
+        background-color: #025b9c; }
+    button.destructive-action:active:backdrop, button.destructive-action:checked:backdrop {
+      color: #FFFFFF;
+      background-color: #0080DD; }
+  button.destructive-action:disabled {
+    color: #be0606; }
+    button.destructive-action:disabled:backdrop {
+      color: #404040; }
   button.destructive-action:backdrop {
-    border-color: #d63333;
-    color: #fae6e6;
-    background-color: #8f0000; }
+    color: #FFFFFF;
+    background-color: transparent; }
 
 button.suggested-action {
   border: none;
@@ -1753,7 +1766,6 @@ columnview row:not(:selected) cell editablelabel.editing text selection {
     border: none; }
 
 calendar {
-  padding: 2px;
   border-width: 1px;
   border-radius: 0px;
   border-style: solid;
@@ -1761,17 +1773,32 @@ calendar {
   color: #FFFFFF; }
   calendar.header {
     border: none;
-    color: #0080DD; }
+    border-bottom: 1px solid #383838;
+    color: #FFFFFF; }
   calendar.button {
-    color: #0080DD; }
+    color: rgba(255, 255, 255, 0.45); }
+    calendar.button:hover {
+      color: #FFFFFF; }
+    calendar.button:backdrop {
+      color: rgba(255, 255, 255, 0.45); }
+    calendar.button:disabled {
+      color: rgba(128, 128, 128, 0.45); }
   calendar:selected {
-    border-radius: 0;
+    border-radius: 4px;
     color: #FFFFFF;
     background-color: #0080DD; }
+    calendar:selected:backdrop {
+      color: #FFFFFF;
+      background-color: #0080DD; }
   calendar:indeterminate {
-    color: alpha(currentColor, 0.55); }
+    color: alpha(currentColor, 0.1); }
   calendar.highlight {
-    color: #0080DD; }
+    color: gray; }
+    calendar.highlight:backdrop {
+      color: #404040; }
+  calendar:backdrop {
+    color: #FFFFFF;
+    border-color: #333333; }
 
 messagedialog {
   border-bottom-left-radius: 4px;
