@@ -22,7 +22,7 @@ image:disabled {
   background-color: #000000; }
   .view:disabled, iconview:disabled {
     color: gray;
-    background-color: #0d0d0d; }
+    background-color: #1a1a1a; }
   .view:selected:focus, .view:selected, iconview:selected {
     color: #FFFFFF;
     background-color: #0080DD;
@@ -113,7 +113,7 @@ label:disabled {
   label:disabled > selection {
     color: #99b1bb; }
     label:disabled > selection:backdrop {
-      color: #79919b; }
+      color: #99b1bb; }
 
 label.error {
   color: #CC0000; }
@@ -408,11 +408,11 @@ entry {
   entry:disabled {
     color: gray;
     border-color: #333333;
-    background-color: #0d0d0d; }
+    background-color: #1a1a1a; }
     entry:disabled:backdrop {
-      color: #404040;
+      color: gray;
       border-color: #333333;
-      background-color: #050505; }
+      background-color: #1a1a1a; }
   entry:backdrop {
     color: #FFFFFF;
     background-color: #000000; }
@@ -460,17 +460,17 @@ button {
     background-color: #0080DD; }
     button:active:disabled, button:checked:disabled {
       color: #cccccc;
-      background-color: #045d9f; }
+      background-color: #0861a2; }
       button:active:disabled:backdrop, button:checked:disabled:backdrop {
-        color: #b3b3b3;
-        background-color: #025b9c; }
+        color: #cccccc;
+        background-color: #0861a2; }
     button:active:backdrop, button:checked:backdrop {
       color: #FFFFFF;
       background-color: #0080DD; }
   button:disabled {
-    color: #067acd; }
+    color: #0d80d4; }
     button:disabled:backdrop {
-      color: #404040; }
+      color: gray; }
   button:backdrop {
     color: #FFFFFF;
     background-color: transparent; }
@@ -490,17 +490,17 @@ button {
       background-color: #0080DD; }
       button.flat:active:disabled, button.flat:checked:disabled {
         color: #cccccc;
-        background-color: #045d9f; }
+        background-color: #0861a2; }
         button.flat:active:disabled:backdrop, button.flat:checked:disabled:backdrop {
-          color: #b3b3b3;
-          background-color: #025b9c; }
+          color: #cccccc;
+          background-color: #0861a2; }
       button.flat:active:backdrop, button.flat:checked:backdrop {
         color: #FFFFFF;
         background-color: #0080DD; }
     button.flat:disabled {
-      color: #067acd; }
+      color: #0d80d4; }
       button.flat:disabled:backdrop {
-        color: #404040; }
+        color: gray; }
     button.flat:backdrop {
       color: #FFFFFF;
       background-color: transparent; }
@@ -521,17 +521,17 @@ button.destructive-action {
     background-color: #0080DD; }
     button.destructive-action:active:disabled, button.destructive-action:checked:disabled {
       color: #cccccc;
-      background-color: #045d9f; }
+      background-color: #0861a2; }
       button.destructive-action:active:disabled:backdrop, button.destructive-action:checked:disabled:backdrop {
-        color: #b3b3b3;
-        background-color: #025b9c; }
+        color: #cccccc;
+        background-color: #0861a2; }
     button.destructive-action:active:backdrop, button.destructive-action:checked:backdrop {
       color: #FFFFFF;
       background-color: #0080DD; }
   button.destructive-action:disabled {
-    color: #be0606; }
+    color: #c40d0d; }
     button.destructive-action:disabled:backdrop {
-      color: #404040; }
+      color: gray; }
   button.destructive-action:backdrop {
     color: #FFFFFF;
     background-color: transparent; }
@@ -548,10 +548,10 @@ button.suggested-action {
       background-color: #0579cd; }
   button.suggested-action:disabled {
     color: #e6e6e6;
-    background-color: #0369b3; }
+    background-color: #056cb6; }
     button.suggested-action:disabled:backdrop {
-      color: #d9d9d9;
-      background-color: #0167b2; }
+      color: #e6e6e6;
+      background-color: #056cb6; }
   button.suggested-action:backdrop {
     color: #FFFFFF;
     background-color: #0080DD; }
@@ -630,10 +630,10 @@ spinbutton.horizontal {
   spinbutton.horizontal:disabled {
     border-color: #333333;
     color: gray;
-    background-color: #0d0d0d; }
+    background-color: #1a1a1a; }
     spinbutton.horizontal:disabled:backdrop {
-      color: #404040;
-      background-color: #050505; }
+      color: gray;
+      background-color: #1a1a1a; }
   spinbutton.horizontal:focus {
     border-color: #0080DD; }
   spinbutton.horizontal:backdrop {
@@ -677,7 +677,7 @@ toolbar {
     background-color: #000000; }
   toolbar:disabled {
     color: gray;
-    background-color: #0d0d0d; }
+    background-color: #1a1a1a; }
   toolbar button.flat {
     padding: 4px 8px;
     border: none;
@@ -694,17 +694,17 @@ toolbar {
       background-color: #0080DD; }
       toolbar button.flat:active:disabled, toolbar button.flat:checked:disabled {
         color: #cccccc;
-        background-color: #045d9f; }
+        background-color: #0861a2; }
         toolbar button.flat:active:disabled:backdrop, toolbar button.flat:checked:disabled:backdrop {
-          color: #b3b3b3;
-          background-color: #025b9c; }
+          color: #cccccc;
+          background-color: #0861a2; }
       toolbar button.flat:active:backdrop, toolbar button.flat:checked:backdrop {
         color: #FFFFFF;
         background-color: #0080DD; }
     toolbar button.flat:disabled {
-      color: #ececec; }
+      color: #f2f2f2; }
       toolbar button.flat:disabled:backdrop {
-        color: #404040; }
+        color: gray; }
     toolbar button.flat:backdrop {
       color: #FFFFFF;
       background-color: #000000; }
@@ -879,11 +879,11 @@ columnview.view, treeview.view {
   columnview.view:disabled, treeview.view:disabled {
     color: gray; }
     columnview.view:disabled:backdrop, treeview.view:disabled:backdrop {
-      color: #404040; }
+      color: gray; }
     columnview.view:disabled:selected, treeview.view:disabled:selected {
       color: #4080ae; }
       columnview.view:disabled:selected:backdrop, treeview.view:disabled:selected:backdrop {
-        color: #20608e; }
+        color: #4080ae; }
   columnview.view.separator, treeview.view.separator {
     min-height: 2px;
     color: #292929; }
@@ -1237,11 +1237,11 @@ switch {
       border-color: rgba(0, 128, 221, 0.4);
       background-color: rgba(0, 128, 221, 0.4); }
   switch:disabled {
-    border-color: #0d0d0d;
-    background-color: #0d0d0d; }
+    border-color: #1a1a1a;
+    background-color: #1a1a1a; }
     switch:disabled:backdrop {
-      border-color: #050505;
-      background-color: #050505; }
+      border-color: #1a1a1a;
+      background-color: #1a1a1a; }
   switch:backdrop {
     border-color: #333333;
     background-color: #333333; }
@@ -1259,9 +1259,9 @@ switch {
   switch:checked:backdrop slider {
     background-color: #0080DD; }
   switch:disabled slider {
-    background-color: #0d0d0d; }
+    background-color: #1a1a1a; }
   switch:disabled:backdrop slider {
-    background-color: #050505; }
+    background-color: #1a1a1a; }
   switch:backdrop slider {
     background-color: black; }
 
@@ -1326,96 +1326,98 @@ scale {
   min-height: 10px;
   min-width: 10px;
   padding: 12px; }
-  scale fill, scale trough {
-    border: none;
+  scale > trough {
     border-radius: 4px;
-    background-color: rgba(0, 128, 221, 0.2);
-    outline-offset: 2px; }
-    scale fill:disabled, scale trough:disabled {
+    border: none;
+    background-color: rgba(0, 128, 221, 0.2); }
+    scale > trough:disabled {
       background-color: rgba(0, 0, 0, 0.15); }
-      scale fill:disabled:backdrop, scale trough:disabled:backdrop {
+      scale > trough:disabled:backdrop {
         background-color: rgba(0, 0, 0, 0.08); }
-    scale fill:backdrop, scale trough:backdrop {
+    scale > trough:backdrop {
       background-color: rgba(0, 128, 221, 0.1); }
-  scale highlight {
-    border: none;
+  scale > trough > highlight {
+    margin: 0px;
     border-radius: 4px;
-    background-color: #0080DD; }
-    scale highlight:disabled {
-      background-color: #0d0d0d; }
-      scale highlight:disabled:backdrop {
-        background-color: #050505; }
-    scale highlight:backdrop {
-      background-color: #0080DD; }
-  scale.horizontal indicator {
-    min-height: 6px;
-    min-width: 1px; }
-  scale.horizontal.fine-tune indicator {
-    min-height: 3px; }
-  scale.vertical indicator {
-    min-height: 1px;
-    min-width: 6px; }
-  scale.vertical.fine-tune indicator {
-    min-width: 3px; }
-  scale.fine-tune.horizontal {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    min-height: 14px; }
-  scale.fine-tune.vertical {
-    padding-left: 10px;
-    padding-right: 10px;
-    min-width: 14px; }
-  scale.fine-tune slider {
-    margin: -6px; }
-  scale.fine-tune fill, scale.fine-tune trough, scale.fine-tune highlight {
-    border-radius: 0; }
-  scale.fine-tune marks.top {
-    margin-bottom: 8px;
-    margin-top: -13px; }
-  scale.fine-tune marks.bottom {
-    margin-top: 8px;
-    margin-bottom: -13px; }
-  scale.fine-tune marks.top {
-    margin-right: 8px;
-    margin-left: -13px; }
-  scale.fine-tune marks.bottom {
-    margin-left: 8px;
-    margin-right: -13px; }
-  scale slider {
-    min-height: 16px;
-    min-width: 16px;
-    margin: -7px;
     border: none;
-    border-radius: 100%;
-    color: #FFFFFF;
     background-color: #0080DD; }
-    scale slider:active {
+    scale > trough > highlight:disabled {
+      background-color: #1a1a1a; }
+      scale > trough > highlight:disabled:backdrop {
+        background-color: #1a1a1a; }
+    scale > trough > highlight:backdrop {
+      background-color: #0080DD; }
+  scale > trough > slider {
+    min-width: 16px;
+    min-height: 16px;
+    margin: -7px;
+    border-radius: 100%;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0080DD;
+    background-image: none; }
+    scale > trough > slider:active {
       box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.08); }
-    scale slider:disabled {
-      background-color: #0d0d0d;
-      -gtk-icon-shadow: none; }
-      scale slider:disabled:backdrop {
-        background-color: #050505;
-        -gtk-icon-shadow: none; }
-    scale slider:backdrop {
+    scale > trough > slider:disabled {
+      background-color: #1a1a1a; }
+      scale > trough > slider:disabled:backdrop {
+        background-color: #1a1a1a; }
+    scale > trough > slider:backdrop {
       color: #FFFFFF;
       background-color: #0080DD; }
-  scale value {
+  scale.fine-tune.horizontal {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 16px; }
+  scale.fine-tune.vertical {
+    min-width: 16px; }
+  scale.fine-tune > trough,
+  scale.fine-tune > trough > fill,
+  scale.fine-tune > trough > highlight {
+    border-radius: 8px; }
+  scale.fine-tune > trough > slider {
+    margin: -4px; }
+  scale > value {
+    color: alpha(currentColor, 0.55);
+    font-feature-settings: "tnum"; }
+  scale > marks {
     color: alpha(currentColor, 0.55); }
-  scale marks {
-    color: alpha(currentColor, 0.55); }
-    scale marks.top {
-      margin-bottom: 6px;
-      margin-top: -12px; }
-    scale marks.bottom {
-      margin-top: 6px;
-      margin-bottom: -12px; }
-    scale marks.top {
-      margin-right: 6px;
-      margin-left: -12px; }
-    scale marks.bottom {
-      margin-left: 6px;
-      margin-right: -12px; }
+  scale.horizontal > marks.top {
+    margin-bottom: 6px; }
+  scale.horizontal > marks.bottom {
+    margin-top: 6px; }
+  scale.horizontal > marks indicator {
+    min-width: 1px;
+    min-height: 6px;
+    background-color: currentColor; }
+  scale.horizontal > value.left {
+    margin-right: 9px; }
+  scale.horizontal > value.right {
+    margin-left: 9px; }
+  scale.horizontal.fine-tune > marks.top {
+    margin-top: 3px; }
+  scale.horizontal.fine-tune > marks.bottom {
+    margin-bottom: 3px; }
+  scale.horizontal.fine-tune > marks indicator {
+    min-height: 3px; }
+  scale.vertical > marks.top {
+    margin-right: 6px; }
+  scale.vertical > marks.bottom {
+    margin-left: 6px; }
+  scale.vertical > marks indicator {
+    min-height: 1px;
+    min-width: 6px;
+    background-color: currentColor; }
+  scale.vertical > value.top {
+    margin-bottom: 9px; }
+  scale.vertical > value.bottom {
+    margin-top: 9px; }
+  scale.vertical.fine-tune > marks.top {
+    margin-left: 3px; }
+  scale.vertical.fine-tune > marks.bottom {
+    margin-right: 3px; }
+  scale.vertical.fine-tune > marks indicator {
+    min-height: 3px; }
 
 progressbar {
   font-size: smaller;
@@ -1434,7 +1436,7 @@ progressbar {
     progressbar > trough > progress:disabled {
       background-color: gray; }
       progressbar > trough > progress:disabled:backdrop {
-        background-color: #404040; }
+        background-color: gray; }
   progressbar.horizontal > trough {
     min-width: 150px; }
   progressbar.vertical > trough {
@@ -1711,7 +1713,7 @@ calendar {
   calendar.highlight {
     color: gray; }
     calendar.highlight:backdrop {
-      color: #404040; }
+      color: gray; }
   calendar:backdrop {
     color: #FFFFFF;
     border-color: #333333; }
@@ -1951,7 +1953,7 @@ button.color {
     .content-view .tile:active, .content-view .tile:selected {
       background-color: #0080DD; }
     .content-view .tile:disabled {
-      background-color: #0d0d0d; }
+      background-color: #1a1a1a; }
   .content-view > rubberband {
     border: 1px solid #0a72bd;
     background-color: rgba(0, 128, 221, 0.3); }
@@ -2203,7 +2205,7 @@ stackswitcher button.text-button {
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #FFFFFF;
 /* base background color of insensitive widgets */
-@define-color insensitive_bg_color #0d0d0d;
+@define-color insensitive_bg_color #1a1a1a;
 /* text foreground color of insensitive widgets */
 @define-color insensitive_fg_color gray;
 /* insensitive text widgets and the like base background color */
@@ -2221,7 +2223,7 @@ stackswitcher button.text-button {
 /* text/foreground color of selections on backdrop windows */
 @define-color theme_unfocused_selected_fg_color #FFFFFF;
 /* insensitive color on backdrop windows*/
-@define-color unfocused_insensitive_color #404040;
+@define-color unfocused_insensitive_color gray;
 /* widgets main borders color */
 @define-color borders #333333;
 /* widgets main borders color on backdrop windows */
