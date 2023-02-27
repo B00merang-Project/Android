@@ -446,14 +446,13 @@ editablelabel > stack > text > selection {
 
 button {
   padding: 4px 8px;
-  border: none;
   border-radius: 3px;
+  border: none;
   color: #1D72E9;
   border-color: transparent;
   background-color: transparent;
-  outline-style: solid;
-  outline-width: 2px;
-  outline-offset: 0; }
+  background-image: none;
+  box-shadow: none; }
   button:active, button:checked {
     outline-color: #70abff;
     color: #FFFFFF;
@@ -476,14 +475,13 @@ button {
     background-color: transparent; }
   button.flat {
     padding: 4px 8px;
-    border: none;
     border-radius: 3px;
+    border: none;
     color: #1D72E9;
     border-color: transparent;
     background-color: transparent;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-offset: 0; }
+    background-image: none;
+    box-shadow: none; }
     button.flat:active, button.flat:checked {
       outline-color: #70abff;
       color: #FFFFFF;
@@ -507,14 +505,13 @@ button {
 
 button.destructive-action {
   padding: 4px 8px;
-  border: none;
   border-radius: 3px;
+  border: none;
   color: #CC0000;
   border-color: transparent;
   background-color: transparent;
-  outline-style: solid;
-  outline-width: 2px;
-  outline-offset: 0; }
+  background-image: none;
+  box-shadow: none; }
   button.destructive-action:active, button.destructive-action:checked {
     outline-color: #70abff;
     color: #FFFFFF;
@@ -680,14 +677,13 @@ toolbar {
     background-color: #e6e6e6; }
   toolbar button.flat {
     padding: 4px 8px;
-    border: none;
     border-radius: 3px;
+    border: none;
     color: #000000;
     border-color: #e6e6e6;
     background-color: #FFFFFF;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-offset: 0; }
+    background-image: none;
+    box-shadow: none; }
     toolbar button.flat:active, toolbar button.flat:checked {
       outline-color: #70abff;
       color: #FFFFFF;
