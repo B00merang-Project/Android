@@ -1220,12 +1220,11 @@ treeview ~ scrollbar.vertical {
   margin-top: -1px; }
 
 switch {
-  font-size: 0;
-  color: transparent;
-  outline-offset: -4px;
   margin: 5px;
-  border: 1px solid #2e2e2e;
+  font-size: 0;
   border-radius: 16px;
+  border: 1px solid #2e2e2e;
+  color: transparent;
   background-color: #2e2e2e; }
   switch:checked {
     border-color: rgba(0, 128, 221, 0.4);
@@ -1242,24 +1241,25 @@ switch {
   switch:backdrop {
     border-color: #333333;
     background-color: #333333; }
-  switch slider {
+  switch > slider {
+    margin: -4px;
     min-width: 24px;
     min-height: 24px;
-    margin: -3px;
-    border: none;
     border-radius: 100%;
+    border: none;
     color: #FFFFFF;
     background-color: #474747;
+    background-image: none;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15); }
-  switch:checked slider {
+  switch:checked > slider {
     background-color: #0080DD; }
-  switch:checked:backdrop slider {
+  switch:checked:backdrop > slider {
     background-color: #0080DD; }
-  switch:disabled slider {
+  switch:disabled > slider {
     background-color: #1a1a1a; }
-  switch:disabled:backdrop slider {
+  switch:disabled:backdrop > slider {
     background-color: #1a1a1a; }
-  switch:backdrop slider {
+  switch:backdrop > slider {
     background-color: black; }
 
 checkbutton.text-button, radiobutton.text-button {
