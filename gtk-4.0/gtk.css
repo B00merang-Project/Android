@@ -1454,19 +1454,16 @@ progressbar {
   color: gray; }
   progressbar > trough {
     border-radius: 0px;
+    border: none;
     background-color: rgba(29, 114, 233, 0.1); }
     progressbar > trough:backdrop {
       background-color: rgba(29, 114, 233, 0.1); }
   progressbar > trough > progress {
-    border: none;
     border-radius: 0px;
+    border: none;
     background-color: #1D72E9; }
     progressbar > trough > progress:backdrop {
       background-color: #1D72E9; }
-    progressbar > trough > progress:disabled {
-      background-color: #bfbfbf; }
-      progressbar > trough > progress:disabled:backdrop {
-        background-color: #bfbfbf; }
   progressbar.horizontal > trough {
     min-width: 150px; }
   progressbar.vertical > trough {
